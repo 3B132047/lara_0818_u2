@@ -1,5 +1,7 @@
 @extends('layouts.master')
+
 @section('title','Hello')
+
 @section('content')
-<hl>This is my {{$name}}'s home.</hl>
+    <hl>This is {{$name}}'s home.</hl>
 @endsection

@@ -4,13 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-
-class Hellocontroller extends Controller
+class HelloController extends Controller
 {
-    public function index($name = 'Everybody')
+    public function index($name='Everbody')
     {
-        $data = ['name' => $name ];
+        $data=['name'=>$name];
 
-        return view('hello.index', $data);
+        return view('hello.index',$data);
     }
 }
